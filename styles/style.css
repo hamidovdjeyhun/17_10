@@ -1,0 +1,118 @@
+body{
+  font-size: 14px;
+  background: #6B130C;
+  margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Manuale', serif;
+}
+/***************
+
+    HEADER
+
+***************/
+header{
+  padding top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 5px solid black;
+}
+header img{
+  float: left;
+  padding-right: 10px;
+  width: 100px;
+
+}
+.AUDI{
+  float: right;
+  width: 100px;
+}
+.AUDIS{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+/***************
+
+    Section
+
+***************/
+section {
+  float: left;
+  width: 70%;
+  margin-top: 5px;
+}
+
+section article {
+  margin: 50px;
+}
+.AUDIT img{
+  width: 180px;
+  float: left;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+p{
+  padding:0px;
+  margin: 0;
+}
+.AUDIK{
+  width: 18%;
+  text-align: left;
+  float: right;
+  margin-right: 30px;
+}
+.AUDIKS{
+  font-size: 16px;
+}
+.AUDIK article{
+  float: right;
+  margin-bottom: 15px;
+}
+.AUDIK article img{
+  width: 80px;
+  float: left;
+  border: 1px solid black;
+  margin-right: 6px;
+}
+ article h2 {
+  margin: 0;
+  font-size: 12px;
+  text-align: justify;
+}
+/***************
+
+    FOOTER
+
+***************/
+footer {
+  float: left;
+  margin-top: 70px;
+  text-align: center;
+  width: 100%;
+  border-top: 5px solid black;
+}
+footer img {
+  width: 70px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+footer .clasik {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+.clearBoth {
+  clear: both;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+section article {
+  cursor: pointer;
+  user-select: none;
+}
+font-family: 'Nosifer', cursive;
